@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+         <!-- SideBar -->
+<div id="sidebar" class="sidebar">
+    <div class="toggle-btn" onclick="toggleSidebar()">
+        ☰
+    </div>
+
+    <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="projectinfo.html">Project Info</a></li>
+    </ul>
+</div>
+
+<!-- Main Content -->
+<div class="main-content">
+     <h1>UCG Mart</h1>
+     <p>Where shopping meets coding.</p>
+</div>
+
+<script>
+    function toggleSidebar() {
+        document.getElementById("sidebar").classList.toggle("active");
+    }
+</script>
+
+<p>This will show All of the bluelock rankings in the next page</p>
+<div class="button">
+    <a href="Page2.html">
+        <button>next page</button>
+
+
