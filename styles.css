@@ -73,3 +73,82 @@
 .container {
     text-align: center;
 }
+
+body{
+    background-color: indigo;
+    color: greenyellow;
+}
+.conatiner{
+      width: 100%;
+      overflow: hidden;
+}
+.box {
+   float: left;
+   width: 33.33%;
+   padding: 15px;
+   color: white;
+   box-sizing: border-box; 
+}
+.LeftAlign{
+    background-color: red;
+    border: 3px solid green;
+}
+.CenterAlign {
+    background-color: green;
+    border: 3px solid yellow;
+}
+.RightAlign {
+    background-color: blue;
+    border: 3px solid red;
+}
+
+a:link {
+    color: aquamarine; 
+    background-color: transparent; 
+    text-decoration: none;
+  }
+  
+  a:visited {
+    color: silver;
+    background-color: transparent;
+    text-decoration: none;
+  }
+
+h1{
+    text-align: center;
+    margin: 0 auto;
+}
+
+:root {
+    --bg: #ffffff;
+    --bg: #000;
+    --card: #f4f4f4;
+}
+
+.dark {
+    --bg: #121212;
+    --text: #fff;
+    --card: #1e1e1e;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+}
+
+.navbar {
+   display: flex;
+   justify-content: space-between; /* centers items horizontally */
+   align-items: center; /*centers item vertically */
+   padding: 15px 0;
+   gap: 20px; /* Adds space between the navbar option */
+   background: #333;
+   color: white;
+}
+
+.navbar a {
+    color: white;
+    margin-right: 15px;
+}
