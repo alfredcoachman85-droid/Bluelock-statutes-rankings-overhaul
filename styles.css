@@ -14,7 +14,7 @@
     width: 60px;
     height: 100vh;
     background-color: #8f1a58;
-    color: rgba(80, 24, 171, 0.504);
+    color: rgba(95, 104, 226, 0.504);
     transition: width 0.3s ease;
     overflow: hidden;
 }
