@@ -33,6 +33,43 @@
     <a href="Page2.html">
         <button>next page</button>
     </a>
+
+
+     <!-- SideBar -->
+<div id="sidebar" class="sidebar">
+    <div class="toggle-btn" onclick="toggleSidebar()">
+        ☰
+    </div>
+
+    <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="projectinfo.html">Project Info</a></li>
+    </ul>
+</div>
+
+<script>
+    function toggleSidebar() {
+        document.getElementById("sidebar").classList.toggle("active");
+    }
+</script>
+   <!--This is how the bavigation bar is created-->
+   <nav class="navbar">
+    <div class="nav-left">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="projectinfo.html">Project info</a>
+   
+  
+  <!-- Toggle Switch -->
+      <div class="theme-toggle">
+          <input type="checkbox" id="theme-switch">
+          <label for="theme-switch" class="toggle-label">
+              <span class="toggle-ball"></span>
+          </label>
+          
+   
+  </nav>
 </div>
 </body>
 </html>
