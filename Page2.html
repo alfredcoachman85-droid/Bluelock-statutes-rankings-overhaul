@@ -4,7 +4,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
+ <!-- SideBar -->
+ <div id="sidebar" class="sidebar">
+    <div class="toggle-btn" onclick="toggleSidebar()">
+        ☰
+    </div>
 
+    <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="projectinfo.html">Project Info</a></li>
+    </ul>
+</div>
+
+<script>
+    function toggleSidebar() {
+        document.getElementById("sidebar").classList.toggle("active");
+    }
+</script>
+<div class="button">
+    <a href="index.html">
+        <button>prev page</button>
+</a>
+</div>
     <img src="images/bachira.jpg" alt="bachira" width="300px" height="200px">
     <img src="images/bachira stats.jpg" alt="bachira stats" width="300px" height="200px">
     <p>Meguru Bachira is an elite, striker focused playmaker in Blue Lock known for top tier dribbling, high level, creative ball control 94+, and an evolving monster style that transitioned from selfish to reading defender movements. His stats highlight high agility, 90+ balance, and incredible, unpredictable feints.</p>
