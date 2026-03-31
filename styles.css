@@ -166,6 +166,17 @@ body {
 }
 
 
+.conatiner{
+    width: 100%;
+    overflow: hidden;
+}
+.box {
+ float: left;
+ width: 33.33%;
+ padding: 15px;
+ color: white;
+ box-sizing: border-box; 
+}
 .LeftAlign{
     background-color: red;
     border: 3px solid green;
