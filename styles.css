@@ -71,7 +71,8 @@
     margin-left: 220px;
 }
 .container {
-    text-align: center;
+    /*text-align: center;*/
+    display: flex;
 }
 
 :root {
