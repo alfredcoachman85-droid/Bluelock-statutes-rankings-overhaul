@@ -1,27 +1,35 @@
-/* Reset */
-*{
+:root {
+    --bg: #ffffff;
+    --bg: #000;
+    --card: #f4f4f4;
+}
+
+.dark {
+    --bg: #121212;
+    --text: #fff;
+    --card: #1e1e1e;
+}
+
+body {
     margin: 0;
-    padding: 0; 
-    box-sizing: border-box;
     font-family: Arial, sans-serif;
+    background: var(--bg);
+    color: var(--text);
 }
 
-/* Sidebar */
-.sidebar {
-    position: fixed;
-    left: 0;
-    top: 0;
-    width: 200px;
-    height: 100vh;
-    background-color: #ebf306;
-    color: rgba(95, 104, 226, 0.504);
-    transition: width 0.3s ease;
-    overflow: hidden;
+.navbar {
+   display: flex;
+   justify-content: space-between; /* centers items horizontally */
+   align-items: center; /*centers item vertically */
+   padding: 15px 0;
+   gap: 20px; /* Adds space between the navbar option */
+   background: #333;
+   color: white;
 }
 
-/* Expanded sidebar */
-.sidebar.active {
-    width: 220px;
+.navbar a {
+    color: white;
+    margin-right: 15px;
 }
 
 /* Toggle button */
@@ -42,12 +50,7 @@
     transition: opacity 0.3s ease, transform 0.3s ease;
 }
 
-/* show nav links only when expanded */
-.sidebar.active .nav-links {
-    opacity: 1;
-    visibility: visible;
-    transform: translateX(0);
-}
+
 
 .nav-links li {
     padding: 15px;
@@ -60,20 +63,6 @@
 .nav-links a:hover {
     background-color: #176841;
     border-radius: 4px;
-}
-/* Main content */
-.main-content {
-    flex: 1;
-    margin-left: 60px;
-    padding: 20px;
-    transition: margin-left 0.3s ease;
-}
-.sidebar.active ~ .main-content {
-    margin-left: 20px;
-}
-.container {
-    /*text-align: center;*/
-    display: flex;
 }
 
 :root {
