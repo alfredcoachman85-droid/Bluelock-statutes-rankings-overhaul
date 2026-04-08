@@ -63,12 +63,13 @@
 }
 /* Main content */
 .main-content {
+    flex: 1;
     margin-left: 60px;
     padding: 20px;
     transition: margin-left 0.3s ease;
 }
 .sidebar.active ~ .main-content {
-    margin-left: 220px;
+    margin-left: 20px;
 }
 .container {
     /*text-align: center;*/
