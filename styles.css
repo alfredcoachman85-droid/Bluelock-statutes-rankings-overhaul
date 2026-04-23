@@ -6,7 +6,7 @@
 
 .dark {
     --bg: #121212;
-    --text: black;
+    --text: white;
     --card: #1e1e1e;
 }
 
@@ -20,7 +20,7 @@ body {
 .navbar {
    display: flex;
    justify-content: space-between; /* centers items horizontally */
-   align-items: center; /*centers item vertically */
+   align-items: center; /*centers item vertically *
    padding: 15px 0;
    gap: 20px; /* Adds space between the navbar option */
    background: #333;
